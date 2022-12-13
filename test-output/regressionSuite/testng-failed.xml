@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regressionSuite]">
+  <test thread-count="5" name="regression Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.orangehrmlive.demo.testsuite.LoginPageTest">
+        <methods>
+          <include name="userShouldNavigateToForgotPasswordPageSuccessfully"/>
+          <include name="userSholdLoginSuccessfullyWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.demo.testsuite.LoginPageTest -->
+    </classes>
+  </test> <!-- regression Test(failed) -->
+</suite> <!-- Failed suite [regressionSuite] -->
